@@ -1,0 +1,72 @@
+@import url("https://cdn.myanimelist.net/css/list.css?v=36");
+@import url("https://cdn.myanimelist.net/static/assets/css/pc/style-849f14639f.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+body {
+  background-image: url("https://i.ibb.co/Ky9M7x0/o9tvl5n7-1.jpg") !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center bottom !important;
+  background-repeat: no-repeat !important;
+}
+
+#list_surround * {
+  text-decoration: none;
+  font-family: Verdana, Arial;
+  color: #251e1d;
+  font-size: 14px;
+}
+#list_surround a:hover {
+  text-decoration: underline;
+}
+
+#list_surround {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#list_surround table {
+  width: 90%;
+  /* background-color: rgba(216, 199, 186, 0.5); */
+  background-color: rgba(162, 172, 178, 0.5);
+}
+
+#list_surround table:first-of-type {
+  height: 40px;
+  margin-top: 20px;
+  background-color: rgba(216, 199, 186, 0);
+
+  font-weight: bold;
+}
+
+#list_surround table:first-of-type * {
+  color: white;
+  text-shadow: 1px 1px 3px #362c2b;
+}
+#list_surround table:first-of-type * a:hover {
+}
+
+.header_title {
+  height: 36px;
+  font-size: 18px;
+  font-family: "Helvetica neue", Helvetica, "lucida grande", tahoma, verdana,
+    arial, sans-serif;
+  font-weight: bold;
+  background-color: rgba(162, 172, 178, 0.8);
+  color: #37454d;
+  text-align: center;
+  line-height: 35px;
+}
+
+#list_surround > table > tbody > tr > td.td1,
+#list_surround > table > tbody > tr > td.td2 {
+  height: 30px;
+}
+
+.animetitle {
+  /* width: 100px; */
+  text-align: start;
+  float: left;
+}
